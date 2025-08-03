@@ -1,0 +1,15 @@
+To activate and run the ShopFront application:
+
+1.  **Get Started:** For development, start by looking at `src/app/page.tsx`. This is the main entry point for the application's pages.
+
+2.  **Run Development Server:** To start the development server and view the application locally, open your terminal or command prompt in the project's root directory and execute the following command:
+
+    
+```bash
+npm run dev -- --port $PORT --hostname 0.0.0.0
+    
+```
+
+    This command runs the development script defined in the `package.json` file, typically using Next.js or a similar framework's development server. The `--port $PORT` and `--hostname 0.0.0.0` flags configure the server to listen on the specified port and make it accessible externally (useful in certain development environments).
+
+3.  **Using Node Binaries:** Note that you can use `npx` to run local node binaries installed in your project's `node_modules` directory without needing to specify their full path. Alternatively, if you are already in a directory containing a `node_modules` folder, you can often run executables directly from there.
